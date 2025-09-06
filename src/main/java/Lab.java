@@ -13,6 +13,11 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+          int x = 10 / 0;
 
+    }
+    public static void main(String[] args) {
+        Lab lab = new Lab();
+        lab.throwUncheckedException(); // This will cause an exception at runtime
     }
 }
